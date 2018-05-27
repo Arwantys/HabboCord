@@ -37,7 +37,7 @@ bot.on('ready', function() {
 	console.log(`[HabboCord]`.yellow + ` BOT => ` + `En ligne`.green);
 })
 
-bot.login("NDUwMjcxMDQ3MDM2NDM2NDgy.Dew0xw.etSdtjSNkX1ywavu_G3nnhkvsfY");
+bot.login("VOTRE JETON");
 
 bot.on('message', message => {
 	if(message.content === prefix + "commands") {
