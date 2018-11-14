@@ -1,8 +1,4 @@
-##############################
-#         HabboCord          #
-#   Développé par Arwantys   #
-#        Version 1.0         #
-##############################
+HabboCord
 
 Modules :
 
