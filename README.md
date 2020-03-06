@@ -1,11 +1,13 @@
-HabboCord
+### Habbo Cord
 
-Modules :
+Installation
 
-npm install mysql --save
+```bash
+npm install
+```
 
-npm install discord.js --save
+Usage 
 
-npm install colors 
-
-npm install figlet
+```bash
+node server.js
+```
