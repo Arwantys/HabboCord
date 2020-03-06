@@ -58,7 +58,7 @@ bot.on('message', message => {
 	
 	if(message.content === prefix + "mostdiamants") {
 		database.query('SELECT activity_points, username FROM users ORDER BY activity_points DESC LIMIT 1', function(err, activity) {
-			message.reply(`celui qui a le plus de crédits dans l'hôtel est ${activity[0].username} avec ${activity[0].activity_points} diamants.`);
+			message.reply(`celui qui a le plus de diamants dans l'hôtel est ${activity[0].username} avec ${activity[0].activity_points} diamants.`);
 		})
 	}
 	
