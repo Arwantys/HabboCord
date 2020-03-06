@@ -8,7 +8,7 @@ npm install
 
 ## Configuration
 
-Vous devez configurer la base de données de votre rétro-habbo
+Vous devez configurer la base de données de votre rétro-habbo pour que l'application accède aux données de celui-ci.
 
 ```javascript
 var database = mysql.createConnection({
