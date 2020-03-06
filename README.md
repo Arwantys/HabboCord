@@ -1,6 +1,6 @@
-### Habbo Cord
+# Habbo Cord
 
-Installation
+## Installation
 
 ```bash
 npm install
@@ -20,7 +20,7 @@ var database = mysql.createConnection({
 });
 ```
 
-Usage 
+## Usage 
 
 ```bash
 node server.js
